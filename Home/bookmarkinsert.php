@@ -1,5 +1,5 @@
 <?php
-    include("../dbcon.php");
+    include("../dbCon.php");
     session_start();
     $tid = $_GET['tid'];
     $sid = $_SESSION['sid'];

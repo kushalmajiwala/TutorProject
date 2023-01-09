@@ -1,5 +1,5 @@
 <?php
-    include("../dbcon.php");
+    include("../dbCon.php");
     $bid = $_GET['bid'];
     $sql = "delete from bookmarktb where bookmarkID = $bid";
     $res = mysqli_query($con, $sql);
